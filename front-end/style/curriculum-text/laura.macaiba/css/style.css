@@ -1,0 +1,61 @@
+/* Classe para deixar o texto alinhado ao centro*/
+.text-center {
+	text-align: center;
+}
+/*define o estilo do link visitado;*/
+ a:link, a:visited {
+	text-decoration: none
+    }
+/*define o estilo do link quando passa-se o mouse sobre ele;*/
+ a:hover {
+	text-decoration: underline; 
+	color: darkblue;
+    }
+/*define o estilo do link ativo (o que foi "clicado")*/
+a:active {
+	text-decoration: none /*define o sublinhado*/
+    }
+h1, h2, a, a:visited{
+    color: darkblue;
+}
+body {
+    color: darkslategrey;
+    font-family: arial, sans-serif;
+    font-size: 15px;
+}
+b{
+    font-weight: bold;
+}
+h2 {
+    font-size: 20px;
+    background-color: lightskyblue;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+h1 a, h1 a:visited {
+    color: white;
+}
+h1 a:hover{
+ color: darkblue;
+}
+
+ h2 a, h2 a:visited {
+    color: lightskyblue;
+}
+
+h2 a:hover{
+    color: darkblue;
+   }
+
+
+#copyright {
+    font-weight: bold;
+    font-style: italic;
+}
